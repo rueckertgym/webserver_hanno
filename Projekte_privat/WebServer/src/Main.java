@@ -6,6 +6,6 @@ public class Main {
         ShopClient shopClient = new ShopClient("10.56.17.208", 7);
         shopClient.groesseFarbeWählen("M", "B");
         shopClient.bestaetigen("JA");
-        shopClient.abmelden();
+        //shopClient.abmelden();
     }
 }
