@@ -2,7 +2,11 @@ import utils.List;
 
 public class Bestellung {
 
-    private List<Einhornfurzkissen> ware;
+    private boolean bestaetigt;
+    private int idnr;
 
+    public Bestellung(Einhornfurzkissen pWare){
+
+    }
 
 }

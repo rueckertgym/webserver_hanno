@@ -16,10 +16,10 @@ public class ShopClient extends Client {
     }
 
     public void bestaetigen(String pAntwort){
-        this.send("Bestätigung" + pAntwort);
+        this.send("BESTAETIGUNG:" + pAntwort);
     }
 
     public void abmelden(){
-        this.send("Abmelden");
+        this.send("ABMELDEN:");
     }
 }
