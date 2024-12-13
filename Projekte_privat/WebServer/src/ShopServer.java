@@ -37,9 +37,7 @@ public class ShopServer extends Server {
         return bestellungen;
     }
 
-    @Override
     public void processClosingConnection(String pClientIP, int pClientPort) {
-        closeConnection(pClientIP, pClientPort);
     }
 
 }
